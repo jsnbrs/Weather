@@ -1,2 +1,2 @@
 # Weather
-Simple site using AJAX to display the weather from a location search.
+Simple site using Ajax to display the weather from a location search.
