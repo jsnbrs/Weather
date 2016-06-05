@@ -5,5 +5,4 @@ Simple site that gives weather information from a search form.  The site uses Aj
 
 ###Styling/Icons
 *[Pure.css](www.purecss.io)
-
 *[Meteocons](http://www.alessioatzeni.com/meteocons/)
