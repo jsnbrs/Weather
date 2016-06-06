@@ -30,19 +30,30 @@ var weather_img;
       var description = weather[0].description
       var name = data.name
       var temp = data.main.temp
+      var icon = weather[0].icon
 
 
         $('#forecast').text("Right now in " + name + " it's "+ temp +
           " degrees Farenheit with " + description + ".")
 
-        if (description.includes("clear")) {
-          weather_img = "img/2.svg";
-        } else if (description.includes("mist")) {
-          weather_img = "img/5.svg";
-        } else if (description.includes("few clouds")) {
-          weather_img = "img/8.svg";
-        } else if (description.includes("moderate rain")) {
-          weather_img = "img/18.svg";
+        if (icon.includes("01d")) {
+          weather_img = "img/2.svg"; //clear sky
+        } else if (icon.includes("02d")) {
+          weather_img = "img/8.svg"; //few clouds
+        } else if (icon.includes("03d")) {
+          weather_img = "img/14.svg";  //scattered clouds
+        } else if (icon.includes("04d")) {
+          weather_img = "img/9.svg";  //broken clouds
+        }  else if (icon.includes("09d")) {
+          weather_img = "img/17.svg";  //shower rain
+        }  else if (icon.includes("10d")) {
+          weather_img = "img/18.svg";  //rain
+        }  else if (icon.includes("11d")) {
+          weather_img = "img/15.svg";  //thunderstorm
+        }  else if (icon.includes("13d")) {
+          weather_img = "img/21.svg";  //snow
+        }  else if (icon.includes("50d")) {
+          weather_img = "img/5.svg";  //mist
         }
 
         var weather_icon = $('img').attr('src', weather_img);

@@ -1,5 +1,5 @@
 html, body {
-  background-color: #FFF;
+  background-color: #5CBF94;
   font-weight: 100;
   color: #FFF;
 }
@@ -31,12 +31,12 @@ form {
   text-align: center;
 }
 
-element.style {
-    padding-top: 0px;
-    padding-left: 250px;
-    width: 200px;
+.sun {
+  height: 200px;
+  margin: 0 auto;
+  padding-top: 5px;
 }
 
-/*img {
-  vertical-align: top;
-}*/
+.pure-g {
+  text-align: center;
+}
