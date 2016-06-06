@@ -1,0 +1,51 @@
+html {  
+  height: 100%;
+} 
+
+body {
+  background-color: rgb(82,165,127);
+  background-image: 
+    linear-gradient(
+        #859398,
+        #283048
+    );
+  font-weight: 100;
+  color: #FFF;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  text-align: center;
+  font-weight: 100;
+  width: 100%;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+.prompt {
+  font-size: 1.2em;
+  margin-top: 4em;
+}
+
+form {
+  color: #000;
+  width: 290px;
+  margin: 0 auto;
+}
+
+.date {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+
+.pure-img {
+  height: 200px;
+  margin: 0 auto;
+  padding-top: 5px;
+}
+
+.pure-g {
+  text-align: center;
+}

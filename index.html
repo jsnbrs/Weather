@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather</title>
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.css">
+  <link rel="stylesheet" href="stylesheets/pure.min.css">
+  <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+<body>
+  <p class="prompt">Enter a city to see the current weather:</p>
+  <form class="pure-form">
+    <input type="text" class="pure-input-rounded">
+    <button type="submit" class="pure-button">Search</button>
+  </form>
+
+  <p id="forecast"></p>
+
+  <div class="pure-g">
+    <img class="pure-img">
+  </div>
+
+  <p class="date"></p>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script src="scripts/moment.min.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
