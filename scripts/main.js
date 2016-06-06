@@ -33,7 +33,7 @@ var weather_img;
       var icon = weather[0].icon
 
 
-        $('#forecast').text("Right now in " + name + " it's "+ temp +
+        $('#forecast').text("Right now in " + name + " it's " + temp +
           " degrees Farenheit with " + description + ".")
 
         if (icon.includes("01d")) {
@@ -44,15 +44,15 @@ var weather_img;
           weather_img = "img/14.svg";  //scattered clouds
         } else if (icon.includes("04d")) {
           weather_img = "img/9.svg";  //broken clouds
-        }  else if (icon.includes("09d")) {
+        } else if (icon.includes("09d")) {
           weather_img = "img/17.svg";  //shower rain
-        }  else if (icon.includes("10d")) {
+        } else if (icon.includes("10d")) {
           weather_img = "img/18.svg";  //rain
-        }  else if (icon.includes("11d")) {
+        } else if (icon.includes("11d")) {
           weather_img = "img/15.svg";  //thunderstorm
-        }  else if (icon.includes("13d")) {
+        } else if (icon.includes("13d")) {
           weather_img = "img/21.svg";  //snow
-        }  else if (icon.includes("50d")) {
+        } else if (icon.includes("50d")) {
           weather_img = "img/5.svg";  //mist
         }
 
@@ -65,5 +65,3 @@ var weather_img;
   });
 
 })();
-
-//mist few clouds, light rain, moderate rain
