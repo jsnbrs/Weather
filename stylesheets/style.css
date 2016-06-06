@@ -1,5 +1,14 @@
-html, body {
-  background-color: #5CBF94;
+html {  
+  height: 100%;
+} 
+
+body {
+  background-color: rgb(82,165,127);
+  background-image: 
+    linear-gradient(
+        #859398,
+        #283048
+    );
   font-weight: 100;
   color: #FFF;
 }
