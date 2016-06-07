@@ -38,23 +38,31 @@ var weather_img;
 
         if (icon.includes("01d")) {
           weather_img = "img/2.svg"; //clear sky
+        } else if (icon.includes("01n")) {
+          weather_img = "img/3.svg";  //clear sky night
         } else if (icon.includes("02d")) {
           weather_img = "img/8.svg"; //few clouds
+        } else if (icon.includes("02n")) {
+          weather_img = "img/9.svg"; //few clouds night
         } else if (icon.includes("03d")) {
           weather_img = "img/14.svg";  //scattered clouds
+        } else if (icon.includes("03n")) {
+          weather_img = "img/31.svg"; //scattered clouds night
         } else if (icon.includes("04d")) {
-          weather_img = "img/9.svg";  //broken clouds
-        } else if (icon.includes("09d")) {
+          weather_img = "img/8.svg";  //broken clounds
+        } else if (icon.includes("04n")) {
+          weather_img = "img/9.svg";  //broken clouds night
+        } else if (icon.includes("09d") || icon.includes("09n")) {
           weather_img = "img/17.svg";  //shower rain
-        } else if (icon.includes("10d")) {
+        } else if (icon.includes("10d")  || icon.includes("10n")) {
           weather_img = "img/18.svg";  //rain
-        } else if (icon.includes("11d")) {
+        } else if (icon.includes("11d")  || icon.includes("11n")) {
           weather_img = "img/15.svg";  //thunderstorm
-        } else if (icon.includes("13d")) {
+        } else if (icon.includes("13d")  || icon.includes("13n")) {
           weather_img = "img/21.svg";  //snow
-        } else if (icon.includes("50d")) {
+        } else if (icon.includes("50d")  || icon.includes("50n")) {
           weather_img = "img/5.svg";  //mist
-        }
+        } 
 
         var weather_icon = $('img').attr('src', weather_img);
 
