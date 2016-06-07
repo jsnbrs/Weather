@@ -63,7 +63,7 @@ var weather_img;
         } else if (icon.includes("50d")  || icon.includes("50n")) {
           weather_img = "img/5.svg";  //mist
         } 
-alert(icon)
+
         var weather_icon = $('img').attr('src', weather_img);
 
       }
