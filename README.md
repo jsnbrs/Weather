@@ -1,9 +1,12 @@
 # Weather
 
 ###Description
+<<<<<<< HEAD
 
 ####[Live Site](http://jsnbrs.github.io/Weather/)
 
+=======
+>>>>>>> b16172df33696ff8dce52688ae45df1edb368a4c
 Simple site that gives weather information from a search form.  The site uses Ajax calls to the Open weather map API and appends the information to the DOM with jQuery.  Additional styling from Pure.css and icons from Meteocons.  This started as a homework assignment at General Assembly, but I wanted to improve upon it a bit more.
 
 ###Styling/Icons
